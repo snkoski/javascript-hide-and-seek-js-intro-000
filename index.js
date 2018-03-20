@@ -18,7 +18,7 @@ function deepestChild() {
   debugger;
   let list = document.getElementById('app').querySelectorAll('div#grand-node');
   //let text = list[4].innerHTML;
-  if (list.hasChildNode()) {
+  if (list.hasChildNodes()) {
     console.log("There is a child there");
   }
   for (let i = 0; i < list.length; i++) {
