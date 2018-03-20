@@ -24,7 +24,7 @@ function deepestChild() {
     console.log('test in for');
   }
   //console.log(list[0][0][0][1].innerHTML)
-  console.log('test');
+  console.log(list);
   return list;
   
 }
