@@ -25,6 +25,6 @@ function deepestChild() {
   }
   //console.log(list[0][0][0][1].innerHTML)
   console.log(list);
-  return list;
+  return list[0];
   
 }
